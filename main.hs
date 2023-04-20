@@ -1,3 +1,5 @@
+
+
 fibonancci :: Int -> Int
 fibonancci 0 = 1
 fibonancci 1 = 1
@@ -58,4 +60,14 @@ absoluteArray [] = []
 absoluteArray xs = map absoluteNumber xs
 
 -- Trả về các phần tử trùng nhau của hai mảng
-sameElements :: [Int] -> [Int] -> [Int]
+--sameElements :: [Int] -> [Int] -> [Int]
+
+-- Trả về tích các phần tử trong mảng
+productElements :: [Int] -> Int
+productElements [] = 0
+productElements [x] = x
+productElements (x:xs) = x * productElements xs
+
+main:: IO()
+main = print (productElements [1,2,3])
+
