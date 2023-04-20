@@ -31,3 +31,10 @@ find x xs = if head xs == x then 0
                 where y = find x (tail xs) 
 
 -- groupRuns function
+
+-- Trả về chuỗi dài nhất trong mãng
+findTheLongestString :: [String] -> String
+findTheLongestString [] = ""
+findTheLongestString xs = if (length (head xs)) > (length y) then head xs
+                                else y
+                                where y = findTheLongestString (tail xs)
