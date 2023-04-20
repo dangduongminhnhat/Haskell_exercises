@@ -38,3 +38,13 @@ findTheLongestString [] = ""
 findTheLongestString xs = if (length (head xs)) > (length y) then head xs
                                 else y
                                 where y = findTheLongestString (tail xs)
+
+-- Trả về mảng bình phương
+squareArray :: [Int] -> [Int]
+squareArray [] = []
+squareArray xs = [x * x | x <- xs]
+
+-- Trả về chuỗi đảo ngược
+reverseString :: String -> String
+reverseString "" = ""
+reverseString s = reverseString (tail s) ++ [x | (x, i) <- zip s [0..], i == 0] 
