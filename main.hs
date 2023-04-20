@@ -56,3 +56,6 @@ absoluteNumber x = if x >= 0 then x else (0 - x)
 absoluteArray :: [Int] -> [Int]
 absoluteArray [] = []
 absoluteArray xs = map absoluteNumber xs
+
+-- Trả về các phần tử trùng nhau của hai mảng
+sameElements :: [Int] -> [Int] -> [Int]
