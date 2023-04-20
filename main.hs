@@ -68,6 +68,10 @@ productElements [] = 0
 productElements [x] = x
 productElements (x:xs) = x * productElements xs
 
+-- Trả về các phần tử chẵn của mảng
+evenList :: [Int] -> [Int]
+evenList xs = [x | x <- xs, x `mod` 2 == 0]
+
 main:: IO()
-main = print (productElements [1,2,3])
+main = print (evenList [1,2,3])
 
