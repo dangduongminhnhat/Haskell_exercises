@@ -60,7 +60,7 @@ absoluteArray [] = []
 absoluteArray xs = map absoluteNumber xs
 
 -- Trả về các phần tử trùng nhau của hai mảng
---sameElements :: [Int] -> [Int] -> [Int]
+sameElements :: [Int] -> [Int] -> [Int]
 
 -- Trả về tích các phần tử trong mảng
 productElements :: [Int] -> Int
@@ -71,6 +71,9 @@ productElements (x:xs) = x * productElements xs
 -- Trả về các phần tử chẵn của mảng
 evenList :: [Int] -> [Int]
 evenList xs = [x | x <- xs, x `mod` 2 == 0]
+
+-- Trả về chuỗi con tăng dài nhất torng mảng
+longestIncreaseSubsequence :: [Int] -> [Int]
 
 main:: IO()
 main = print (evenList [1,2,3])
