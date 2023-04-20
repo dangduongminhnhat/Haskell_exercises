@@ -48,3 +48,11 @@ squareArray xs = [x * x | x <- xs]
 reverseString :: String -> String
 reverseString "" = ""
 reverseString s = reverseString (tail s) ++ [x | (x, i) <- zip s [0..], i == 0] 
+
+-- Trả về mảng trị tuyệt đối
+absoluteNumber :: Int -> Int
+absoluteNumber x = if x >= 0 then x else (0 - x)
+
+absoluteArray :: [Int] -> [Int]
+absoluteArray [] = []
+absoluteArray xs = map absoluteNumber xs

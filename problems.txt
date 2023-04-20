@@ -4,7 +4,7 @@ Ok Write a function that takes a list of integers and returns the sum of all eve
 OK Write a function that takes a list of strings and returns the longest string in the list.
 Ok Write a function that takes a list of integers and returns a new list where each element is the square of the corresponding element in the input list.
 Ok Write a function that takes a string and returns the string reversed.
-Write a function that takes a list of integers and returns a new list where each element is the absolute value of the corresponding element in the input list.
+Ok Write a function that takes a list of integers and returns a new list where each element is the absolute value of the corresponding element in the input list.
 Write a function that takes two lists and returns a new list that contains the elements that appear in both input lists.
 Write a function that takes a list of integers and returns the product of all the elements in the list.
 Write a function that takes a list of integers and returns a new list that contains only the even elements of the input list.
