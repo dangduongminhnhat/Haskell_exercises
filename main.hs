@@ -1,3 +1,5 @@
+
+
 fibonancci :: Int -> Int
 fibonancci 0 = 1
 fibonancci 1 = 1
@@ -64,3 +66,20 @@ eraseSameElements xs = foldl (\ys x -> if (find x ys) == -1 then (ys ++ [x]) els
 
 sameElements :: [Int] -> [Int] -> [Int]
 sameElements xs ys = eraseSameElements [a | a <- xs, b <- ys, a == b]
+
+-- Trả về tích các phần tử trong mảng
+productElements :: [Int] -> Int
+productElements [] = 0
+productElements [x] = x
+productElements (x:xs) = x * productElements xs
+
+-- Trả về các phần tử chẵn của mảng
+evenList :: [Int] -> [Int]
+evenList xs = [x | x <- xs, x `mod` 2 == 0]
+
+-- Trả về chuỗi con tăng dài nhất torng mảng
+longestIncreaseSubsequence :: [Int] -> [Int]
+
+main:: IO()
+main = print (evenList [1,2,3])
+
