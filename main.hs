@@ -76,7 +76,7 @@ evenList :: [Int] -> [Int]
 evenList xs = [x | x <- xs, x `mod` 2 == 0]
 
 -- Trả về chuỗi con tăng dài nhất torng mảng
-longestIncreaseSubsequence :: [Int] -> [Int]
+-- longestIncreaseSubsequence :: [Int] -> [Int]
 
 main:: IO()
 main = print (evenList [1,2,3])
