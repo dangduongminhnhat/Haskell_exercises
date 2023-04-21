@@ -1,5 +1,3 @@
-
-
 fibonancci :: Int -> Int
 fibonancci 0 = 1
 fibonancci 1 = 1
