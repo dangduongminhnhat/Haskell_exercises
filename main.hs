@@ -58,4 +58,9 @@ absoluteArray [] = []
 absoluteArray xs = map absoluteNumber xs
 
 -- Trả về các phần tử trùng nhau của hai mảng
+eraseSameElements :: [Int] -> [Int]
+eraseSameElements [] = []
+eraseSameElements xs = foldl (\ys x -> if (find x ys) == -1 then (ys ++ [x]) else ys) [] xs
+
 sameElements :: [Int] -> [Int] -> [Int]
+sameElements xs ys = eraseSameElements [a | a <- xs, b <- ys, a == b]
