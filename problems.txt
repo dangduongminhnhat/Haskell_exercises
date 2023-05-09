@@ -8,7 +8,7 @@ Ok Write a function that takes a list of integers and returns a new list where e
 Ok Write a function that takes two lists and returns a new list that contains the elements that appear in both input lists.
 Ok Write a function that takes a list of integers and returns the product of all the elements in the list.
 Ok Write a function that takes a list of integers and returns a new list that contains only the even elements of the input list.
-Write a function that takes a list of integers and returns the longest increasing subsequence of the list.
+Ok Write a function that takes a list of integers and returns the longest increasing subsequence of the list.
 Write a function that takes a list of integers and returns a new list where each element is the sum of the previous two elements in the input list (similar to the Fibonacci sequence, but with a different starting condition).
 Write a function that takes two strings and returns the longest common subsequence of the two strings.
 Write a function that takes a list of integers and returns the maximum sum of any contiguous subsequence of the list.
