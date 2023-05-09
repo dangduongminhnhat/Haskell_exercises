@@ -75,9 +75,21 @@ productElements (x:xs) = x * productElements xs
 evenList :: [Int] -> [Int]
 evenList xs = [x | x <- xs, x `mod` 2 == 0]
 
+-- Trả về số lượng phần tử lớn nhất trong mảng
+longestLengthArray :: [[Int]] -> [Int]
+longestLengthArray [] = []
+longestLengthArray a = foldl (\acc x -> if length acc > length x then acc else x) [] a
+
+-- Trả về chuỗi dài nhất từ đầu đến từng phần tử trong mảng
+longestToI :: [Int] -> [[Int]]
+longestToI [] = []
+longestToI [x] = [[x]]
+longestToI a = zx ++ [longestLengthArray [xs ++ ys | xs <- zx, ys <- if (last a) > (last xs) then [[last a]] else [[]]]]
+            where {
+                zx = longestToI (take (length a - 1) a)    
+            }
+
 -- Trả về chuỗi con tăng dài nhất torng mảng
--- longestIncreaseSubsequence :: [Int] -> [Int]
-
-main:: IO()
-main = print (evenList [1,2,3])
-
+longestIncreaseSubsequence :: [Int] -> [Int]
+longestIncreaseSubsequence [] = []
+longestIncreaseSubsequence xs = longestLengthArray (longestToI xs)
