@@ -93,3 +93,13 @@ longestToI a = zx ++ [longestLengthArray [xs ++ ys | xs <- zx, ys <- [[last a]],
 longestIncreaseSubsequence :: [Int] -> [Int]
 longestIncreaseSubsequence [] = []
 longestIncreaseSubsequence xs = longestLengthArray (longestToI xs)
+
+-- Kiểm tra phần tử có trong mảng không
+checkElemnt :: [Int] -> Int -> Bool
+checkElemnt [] _ = False
+checkElemnt a x = if head a == x then True else checkElemnt (tail a) x
+
+-- Kiểm tra phần tử trùng lặp
+checkRepeatElements :: [Int] -> Bool
+checkRepeatElements [] = False
+checkRepeatElements a = if (checkElemnt (tail a) (head a) == True) then True else checkRepeatElements (tail a) 

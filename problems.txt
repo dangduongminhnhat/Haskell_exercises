@@ -18,3 +18,8 @@ Write a function that takes a list of integers and returns a new list where each
 Write a function that takes a list of integers and returns the length of the longest increasing subsequence of the list that ends at the last element.
 Write a function that takes a list of integers and returns a new list where each element is the result of applying the factorial function to the corresponding element in the input list.
 Write a function that takes a list of integers and returns a new list where each element is the number of factors of the corresponding element in the input list.
+Ok Viết một hàm kiểm tra xem một danh sách có chứa các phần tử trùng lặp hay không.
+Viết một hàm tìm tất cả các ước số của một số nguyên dương.
+Viết một hàm sắp xếp một danh sách số nguyên bằng thuật toán QuickSort.
+Viết một hàm tính tổng của tất cả các số nguyên tố từ 1 đến n.
+Viết một hàm tính giá trị của biểu thức toán học đơn giản, bao gồm các phép cộng, trừ, nhân và chia.
