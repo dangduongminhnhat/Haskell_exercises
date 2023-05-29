@@ -103,3 +103,21 @@ checkElemnt a x = if head a == x then True else checkElemnt (tail a) x
 checkRepeatElements :: [Int] -> Bool
 checkRepeatElements [] = False
 checkRepeatElements a = if (checkElemnt (tail a) (head a) == True) then True else checkRepeatElements (tail a) 
+
+-- Tìm tất cả ước số của số nguyên dương
+findDivisor :: Int -> [Int]
+findDivisor x = [i | i <- [1..x], mod x i == 0]
+
+-- QuickSort
+quickSort :: [Int] -> [Int]
+quickSort [] = []
+quickSort a = quickSort [x | x <- tail a, x < (head a)] ++ [head a] ++ quickSort [x | x <- tail a, x >= (head a)]
+
+-- Kiểm tra số nguyên tố
+isPrime :: Int -> Bool
+isPrime 1 = False
+isPrime x = if length (findDivisor x) == 2 then True else False
+
+-- Tổng tất cả các số nguyên tố từ 1 đến n
+sumPrimeToN :: Int -> Int
+sumPrimeToN n = sum [x | x <- [1..n], isPrime x]
