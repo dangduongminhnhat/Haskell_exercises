@@ -9,15 +9,6 @@ Ok Write a function that takes two lists and returns a new list that contains th
 Ok Write a function that takes a list of integers and returns the product of all the elements in the list.
 Ok Write a function that takes a list of integers and returns a new list that contains only the even elements of the input list.
 Ok Write a function that takes a list of integers and returns the longest increasing subsequence of the list.
-Write a function that takes a list of integers and returns a new list where each element is the sum of the previous two elements in the input list (similar to the Fibonacci sequence, but with a different starting condition).
-Write a function that takes two strings and returns the longest common subsequence of the two strings.
-Write a function that takes a list of integers and returns the maximum sum of any contiguous subsequence of the list.
-Write a function that takes a list of integers and returns the number of inversions in the list (an inversion is a pair of elements i and j where i < j but a[i] > a[j]).
-Write a function that takes a list of integers and returns the median of the list.
-Write a function that takes a list of integers and returns a new list where each element is the result of applying the Collatz function to the corresponding element in the input list (the Collatz function takes even numbers and divides them by 2, and takes odd numbers and multiplies them by 3 and adds 1).
-Write a function that takes a list of integers and returns the length of the longest increasing subsequence of the list that ends at the last element.
-Write a function that takes a list of integers and returns a new list where each element is the result of applying the factorial function to the corresponding element in the input list.
-Write a function that takes a list of integers and returns a new list where each element is the number of factors of the corresponding element in the input list.
 Ok Viết một hàm kiểm tra xem một danh sách có chứa các phần tử trùng lặp hay không.
 Ok Viết một hàm tìm tất cả các ước số của một số nguyên dương.
 Ok Viết một hàm sắp xếp một danh sách số nguyên bằng thuật toán QuickSort.
