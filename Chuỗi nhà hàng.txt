@@ -1,0 +1,33 @@
+Có các tài khoản dành cho khách hàng, quản lí, đầu bếp, bồi bàn. Khách vãng lai sẽ không cần tài khoản
+
+Ăn tại chỗ: 
+	Đặt chỗ trước: Khách hàng sử dụng tài khoản của mình để đặt món, bàn và thanh toán thông qua ứng dụng
+	Không đặt chỗ trước: Khách hàng chỉ cần đến quán ăn, gọi món, thanh toán
+
+Đặt giao: Khách hành sử dụng tài khoản của mình để đặt món ăn và thanh toán thông qua ứng dụng, sau đó nhận hàng
+Sau khi sử dụng dịch vụ xong, khách hàng có thể để lại feedback
+
+Khách hàng tham gia vào các chương trình tích lũy điểm bằng cách thường xuyên sử dụng dịch vụ của chuỗi nhà hàng, thông qua đó có được các mã giảm giá
+
+Khách hàng có thể sử dụng mã giảm giá khi sử dụng dịch vụ
+
+Các mã giảm giá có thời hạn sử dụng
+
+Quản lí sử dụng tài khoản của mình để quản lí các món ăn, các feedback, các mã giảm giá, doanh thu, kho nguyên kiệu
+
+Các đơn đặt hàng sau khi được xác nhận sẽ giao cho đơn vị giao hàng
+
+Khách hàng có thể đến ăn tại chỗ ở nhà hàng vào mọi khung giờ
+
+Khách hàng không thể đặt giao hàng từ 21h đến 8h sáng hôm sau
+
+Đầu bếp sử dụng tài khoản của mình để xem các order, cập nhật tình trạng của order như: đang chuẩn bị, đã sẵn sàng để phục vụ
+
+Khách hàng có thể xem tình trạng của order của mình
+
+Bồi bàn có thể thêm order vào danh sách các order của đầu bếp
+
+Bồi bàn có thể xem tình trạng order để xem order nào sẵn sàng để phục vụ
+
+Bồi bàn có thể thêm feedback vào hệ thống trong trường hợp khách hàng để lại feedback bằng lời nói
+
